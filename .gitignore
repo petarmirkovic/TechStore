@@ -1,0 +1,8 @@
+obj
+bin
+appsettings.json
+*.db
+*.v2
+*.vsidx
+*.lock
+.suo
