@@ -2,6 +2,7 @@ using Microsoft.OpenApi.Models;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
+using SkiNet.Helpers;
 
 namespace API
 {
@@ -18,7 +19,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddDbContext<StoreContext>(x => x.UseSqlite(config.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -40,6 +43,8 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseStaticFiles();
 
             app.UseAuthorization();
 
