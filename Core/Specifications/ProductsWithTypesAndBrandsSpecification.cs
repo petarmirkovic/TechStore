@@ -29,7 +29,7 @@ namespace Core.Specifications
                         AddOrderBy(p => p.Price);
                         break;
                     case "priceDesc":
-                        AddOrderBy(p => p.Price);
+                        AddOrderByDescending(p => p.Price);
                         break;
                     default:
                         AddOrderBy(n => n.Name);
@@ -42,5 +42,6 @@ namespace Core.Specifications
             AddInclude(x => x.ProductBrand);
             AddInclude(x => x.ProductType);
         }
+
     }
 }
