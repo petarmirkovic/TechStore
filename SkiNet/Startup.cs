@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SkiNet.Helpers;
 using SkiNet.Middleware;
 using SkiNet.Extensions;
+using StackExchange.Redis;
 
 namespace API
 {
@@ -21,6 +22,10 @@ namespace API
         {
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddDbContext<StoreContext>(x => x.UseSqlite(config.GetConnectionString("DefaultConnection")));
+            services.AddSingleton<IConnectionMultiplexer>(c => {
+                var options = ConfigurationOptions.Parse(config.GetConnectionString("Redis"));
+                return ConnectionMultiplexer.Connect(options);
+            });
             services.AddControllers();
             services.AddApplicationServices();
             services.AddSwaggerDocumentation();
