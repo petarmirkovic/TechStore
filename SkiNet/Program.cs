@@ -1,4 +1,8 @@
+using Core.Entities.Identity;
+using Infrastructure;
 using Infrastructure.Data;
+using Infrastructure.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace API
@@ -8,17 +12,21 @@ namespace API
         public static async Task Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
-            using(var scope = host.Services.CreateScope())                      //Preseeding data into database
+            using(var scope = host.Services.CreateScope())                      //Pre seeding data into database
             {
                 var services = scope.ServiceProvider;
                 var loggerFactory = services.GetRequiredService<ILoggerFactory>();
                 try{
                     var context = services.GetRequiredService<StoreContext>();
+                    var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+                    var userManager = services.GetRequiredService<UserManager<AppUser>>();
                     await context.Database.MigrateAsync();
+                    await identityContext.Database.MigrateAsync();
                     await StoreContextSeed.SeedAsync(context, loggerFactory);
+                    await AppIdentityDbContextSeed.SeedUserAsync(userManager);
                 }catch(Exception ex){
                     var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "An error has occured during migration");
+                    logger.LogError(ex, "An error has ocurred during migration");
                 }
             }
             host.Run();
