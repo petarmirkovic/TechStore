@@ -4,6 +4,10 @@
 }
 
 .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   opacity: 1;
   & button {
     transform: none;

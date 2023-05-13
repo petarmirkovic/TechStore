@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
-namespace SkiNet.Extensions
+namespace API.Extensions
 {
     public static class IdentityServiceExtensions
     {

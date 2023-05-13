@@ -2,9 +2,9 @@ using Core.Interfaces;
 using Infrastructure.Data;
 using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
-using SkiNet.Errors;
+using API.Errors;
 
-namespace SkiNet.Extensions
+namespace API.Extensions
 {
     public static class ApplicationServicesExtension
     {

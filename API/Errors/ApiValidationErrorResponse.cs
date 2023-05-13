@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SkiNet.Errors
+namespace API.Errors
 {
     public class ApiValidationErrorResponse : ApiResponse
     {

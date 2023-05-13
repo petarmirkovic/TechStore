@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
-using SkiNet.Errors;
+using API.Errors;
 
-namespace SkiNet.Middleware
+namespace API.Middleware
 {
     public class ExceptionMiddleware
     {

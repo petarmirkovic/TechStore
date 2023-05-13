@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Core.Entities;
-using SkiNet.Dtos;
+using API.Dtos;
 using Microsoft.Extensions.Configuration;
 
-namespace SkiNet.Helpers
+namespace API.Helpers
 {
     public class ProductUrlResolver : IValueResolver<Product, ProductToReturnDto, string>
     {

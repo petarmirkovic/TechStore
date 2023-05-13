@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SkiNet.Controllers
 {
     [ApiController]
-    [Route("Skinet/[controller]")]
+    [Route("API/[controller]")]
     public class BaseApiController : Controller
     {
         

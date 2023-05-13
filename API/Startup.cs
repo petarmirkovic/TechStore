@@ -1,8 +1,8 @@
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using SkiNet.Helpers;
-using SkiNet.Middleware;
-using SkiNet.Extensions;
+using API.Helpers;
+using API.Middleware;
+using API.Extensions;
 using StackExchange.Redis;
 
 namespace API
@@ -20,6 +20,7 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerDocumentation();
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddDbContext<StoreContext>(x => x.UseSqlite(config.GetConnectionString("DefaultConnection")));
             services.AddSingleton<IConnectionMultiplexer>(c => {
@@ -29,7 +30,6 @@ namespace API
             services.AddControllers();
             services.AddApplicationServices();
             services.AddIdentityServices(config);
-            services.AddSwaggerDocumentation();
             services.AddCors(opt => 
             {
                 opt.AddPolicy("CorsPolicy", policy => 

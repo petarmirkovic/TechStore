@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SkiNet.Helpers
+namespace API.Helpers
 {
     public class Pagination<T> where T : class
     {

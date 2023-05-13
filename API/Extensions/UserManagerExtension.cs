@@ -3,7 +3,7 @@ using Core.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace SkiNet.Extensions
+namespace API.Extensions
 {
     public static class UserManagerExtension
     {

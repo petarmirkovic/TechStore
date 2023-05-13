@@ -1,146 +1,194 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "Name": "iPhone 14 Pro - Deep Purple",
+    "Description": "Apple iPhone 14 Pro - Full phone specifications Apple iPhone 14 Pro Released 2022, September 16 206g, 7.9mm thickness iOS 16, up to iOS 16.4.1 128GB/256GB/1TB storage, no card slot 24% 2,830,417 hits.",
+    "Price": 1300,
+    "PictureUrl": "images/products/iPhone 14 Pro - Deep Purple.webp",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
+    "Name": "Samsung S23 Ultra",
+    "Description": "The Samsung Galaxy S23 Ultra is the headliner of the S23 series. Specifications are top-notch including 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 2 processor, 5000mAh battery, up to 12gigs of RAM, and 1TB of storage",
+    "Price": 1250,
+    "PictureUrl": "images/products/Samsung S23 Ultra.webp",
     "ProductTypeId": 1,
     "ProductBrandId": 2
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
+    "Name": "Xiaomi 13 Lite",
+    "Description": "The Xiaomi 13 Lite is a budget-friendly smartphone that offers some great features. The phone has a 6.55-inch FHD+ 120hz display, Snapdragon 7 Gen 1 5G processor, and 12 GB of RAM. The phone also has 256 GB of storage and 50 MP primary rear camera.",
+    "Price": 500,
+    "PictureUrl": "images/products/Xiaomi 13 Lite.webp",
     "ProductTypeId": 1,
     "ProductBrandId": 4
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "Name": "Huawei Mate 50 PRO",
+    "Description": "The Huawei Mate 50 Pro comes with 6.74-inch OLED display with 120Hz refresh rate and Qualcomm Snapdragon 8+ Gen 1 processor. Specs also include 4700mAh battery with 66Wcharging speed ad Triple camera setup on the back with 50MP main sensor.",
+    "Price": 1000,
+    "PictureUrl": "images/products/Huawei Mate 50 PRO.webp",
     "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Samsung Smart telefon S23+",
+    "Description": "Description The Samsung Galaxy S23+ is the bigger sibling of the regular Galaxy S23 with it’s 6.6-inch Dynamic AMOLED display with 120Hz refresh rate. Specs also include Qualcomm Snapdragon 8 Gen 2 processor, 4700mAh battery and Triple camera setup on the back.",
+    "Price": 1150,
+    "PictureUrl": "images/products/Samsung Smart telefon S23+.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Samsung Galaxy S22",
+    "Description": "The Samsung Galaxy S22 specs are top-notch including a Snapdragon 8 Gen 1 chipset, 8GB RAM coupled with 128/256GB storage, and a 3700mAh battery with 25W charging speed. The phone sports a 6.1-inch Dynamic AMOLED display with an adaptive 120Hz refresh rate.",
+    "Price": 700,
+    "PictureUrl": "images/products/Samsung Galaxy S22.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Samsung Galaxy A53 5G",
+    "Description": "Galaxy A53 5G Fenomenalna Crna 256 GB Kupi odmah FHD+ Super AMOLED ekran od 120Hz OIS kamera od 64MP Baterija koja traje dva dana Otpornost na vodu i prašinu * Slika je simulirana u ilustrativne svrhe. ** Raspoloživost boja i modela može varirati u zavisnosti od države i pružaoca usluge. *** Galaxy A53 5G ima IP67 stepen zaštite.",
+    "Price": 300,
+    "PictureUrl": "images/products/Samsung Galaxy A53 5G.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Huawei Nova 10 SE",
+    "Description": "HUAWEI nova 10 SE ticks all of the boxes. It’s dubbed the most stylish smartphone and features a lovely Star Orbit Ring and Ultra-Thin Design, an astonishing 108MP High-Res Camera, blazing-fast 66W HUAWEI SuperCharge, 256 GB big storage and many other cool features.",
+    "Price": 250,
+    "PictureUrl": "images/products/Huawei Nova 10 SE.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Xiaomi Redmi 10C",
+    "Description": "Redmi 10c is coming with energy-efficient Snapdragon® 680 processor, Large 6.71-inch display, 5000mAh Long-Lasting battery and 18W fast charging.",
+    "Price": 120,
+    "PictureUrl": "images/products/Xiaomi Redmi 10C.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Asus Zenfone 9",
+    "Description": "The Asus Zenfone 9 is a little jewel of technology that knows how to make you forget its small size thanks to its high performance. Powerful and enduring, it tackles all tasks …",
+    "Price": 250,
+    "PictureUrl": "images/products/Asus Zenfone 9.webp",
+    "ProductTypeId": 1,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Apple MacBook Air M2",
+    "Description": "The MacBook Air M2 is a laptop that feels truly worthy of the Air name. Yes, the cheaper MacBook Air M1 is still good, but the Air M2 is thinner, lighter and faster and gives you even faster performance and a sharper webcam. With the new MacBook Air M2 (from $1,199, tested at $1,899), Apple paired an even faster M2 chip with a much sleeker design.",
+    "Price": 1900,
+    "PictureUrl": "images/products/Apple MacBook Air M2.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "MacBook Pro M2",
+    "Description": "Like the M1, the M2 uses Apple`s custom Arm silicon. It has more transistors than the M1, more memory bandwidth, and an updated media engine as well as additional GPU cores (10 to the M1`s eight). It`s a new chip in what is, at this point, a dated chassis. The 13-inch M2 MacBook Pro starts at $1,299.",
+    "Price": 2000,
+    "PictureUrl": "images/products/MacBook Pro M2.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Asus Laptop P2451FA-EB1528R",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 800,
+    "PictureUrl": "images/products/Asus Laptop P2451FA-EB1528R.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Asus Laptop X515EA-EJ312W",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 450,
+    "PictureUrl": "images/products/Asus Laptop X515EA-EJ312W.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Dell Laptop G15",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Price": 1400,
+    "PictureUrl": "images/products/Dell Laptop G15.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Dell Laptop Vostro 3510",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 499.99,
+    "PictureUrl": "images/products/Dell Laptop Vostro 3510.webp",
+    "ProductTypeId": 2,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "HP Laptop 250 G8",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 700,
+    "PictureUrl": "images/products/HP Laptop 250 G8.webp",
+    "ProductTypeId": 2,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
+    "Name": "HP Laptop Pavilion Gaming 15",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 1500,
+    "PictureUrl": "images/products/HP Laptop Pavilion Gaming 15.webp",
     "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Samsung Monitor LS24A400VEUXEN",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 230,
+    "PictureUrl": "images/products/Samsung Monitor LS24A400VEUXEN.webp",
+    "ProductTypeId": 3,
     "ProductBrandId": 2
   },
   {
-    "Name": "Green React Woolen Hat",
+    "Name": "Samsung Monitor LS32R750UEUXEN",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Price": 480,
+    "PictureUrl": "images/products/Samsung Monitor LS32R750UEUXEN.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 2
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
+    "Name": "HP Monitor 9SV94AA",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
+    "Price": 220,
+    "PictureUrl": "images/products/HP Monitor 9SV94AA.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Asus Monitor VY249HE",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 150,
+    "PictureUrl": "images/products/Asus Monitor VY249HE.webp",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Angular Blue Boots",
+    "Name": "Huawei Monitor ZQE-CBA",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
+    "Price": 699,
+    "PictureUrl": "images/products/Huawei Monitor ZQE-CBA.webp",
     "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Xiaomi Monitor Mi",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 239,
+    "PictureUrl": "images/products/Xiaomi Monitor Mi.webp",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
   }
 ]

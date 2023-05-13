@@ -1,13 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Core.Entities;
-using Infrastructure.Data;
 using Core.Interfaces;
 using Core.Specifications;
-using SkiNet.Dtos;
 using AutoMapper;
-using SkiNet.Errors;
-using SkiNet.Helpers;
+using API.Helpers;
+using API.Dtos;
+using API.Errors;
 
 namespace SkiNet.Controllers
 {
