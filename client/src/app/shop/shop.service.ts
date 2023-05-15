@@ -10,7 +10,7 @@ import { shopParams } from '../shared/Models/shopParams';
   providedIn: 'root',
 })
 export class ShopService {
-  baseUrl = 'https://localhost:5001/skinet/';
+  baseUrl = 'https://localhost:5001/API/';
   constructor(private http: HttpClient) {}
   getProducts(shopParams: shopParams) {
     let params = new HttpParams();

@@ -8,7 +8,7 @@ import { Product } from '../shared/Models/product';
   providedIn: 'root'
 })
 export class BasketService {
-  baseUrl = "https://localhost:5001/skinet/";
+  baseUrl = "https://localhost:5001/API/";
   private basketSource = new BehaviorSubject<Basket | null>(null);
   private basketTotalSource = new BehaviorSubject<BasketTotals | null>(null);
 
